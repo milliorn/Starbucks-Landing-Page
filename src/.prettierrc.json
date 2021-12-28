@@ -1,5 +1,11 @@
 {
+<<<<<<< HEAD
     "semi": false,
     "singleQuote": true,
     "arrowParens": "avoid"
+=======
+  "semi": false,
+  "singleQuote": true,
+  "arrowParens": "avoid"
+>>>>>>> 061642a072e152d95864143b73345e4a782535af
 }
