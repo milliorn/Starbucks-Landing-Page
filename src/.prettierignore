@@ -4,8 +4,5 @@ coverage
 
 # Ignore all HTML files:
 *.yml
-<<<<<<< HEAD
 *.md
-=======
-*.md
->>>>>>> 061642a072e152d95864143b73345e4a782535af
+*.css
