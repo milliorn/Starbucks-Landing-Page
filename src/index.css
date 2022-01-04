@@ -203,7 +203,7 @@ section {
   padding: 40px 0;
 }
 
-@media(max-width: 960px) {
+@media (max-width: 960px) {
   .text-xl {
     font-size: 30px;
   }
@@ -217,12 +217,18 @@ section {
   }
 }
 
-/* Footer */
+/* Footer & Social */
 .footer-container {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0% 30px 30px;
+  padding: 0 30px 30px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
 }
 
 .social img {
@@ -240,12 +246,6 @@ section {
   height: 1px;
   background-color: #ccc;
   margin: 40px auto;
-}
-
-.social {
-  display: flex;
-  align-items: center;
-  margin: 20px 0;
 }
 
 /* Box */
@@ -288,7 +288,7 @@ section {
   order: 2;
 }
 
-@media(min-width: 1440px) {
+@media (min-width: 1440px) {
   .box {
     max-width: 1440px;
     margin-right: auto;
