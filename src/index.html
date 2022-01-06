@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <title>Starbucks Coffee Company Clone</title>
+    <title>Starbucks Coffee Company</title>
   </head>
 
   <body>
@@ -36,20 +36,51 @@
               <span>Find a store</span>
             </a>
           </li>
-          <li>
-            <button class="btn btn-dark-outline">Sign in</button>
-          </li>
+          <li><button class="btn btn-dark-outline">Sign in</button></li>
           <li><button class="btn btn-dark">Join now</button></li>
         </ul>
+
+        <!-- Hamburger Menu -->
+        <button type="button" class="hamburger" id="menu-btn">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
       </div>
     </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden" id="menu">
+      <ul>
+        <li>
+          <a href="#">Menu</a>
+        </li>
+        <li>
+          <a href="#">Rewards</a>
+        </li>
+        <li>
+          <a href="#">Gift Cards</a>
+        </li>
+      </ul>
+
+      <div class="mobile-menu-bottom">
+        <button class="btn btn-dark-outline">Sign in</button>
+        <button class="btn btn-dark">Join now</button>
+        <div>
+          <a href="#">
+            <img src="img/marker.svg" alt="" />
+            <span>Find a store</span>
+          </a>
+        </div>
+      </div>
+    </div>
 
     <!-- Box A -->
     <section class="box box-a bg-primary text-center py-md">
       <div class="box-inner">
         <h2 class="text-xl">Jingle all the way to free favorites</h2>
         <p class="text-md">
-          Join Starbucks® Rewards for delicious deals &amp exclusive offers.
+          Join Starbucks® Rewards for delicious deals &amp; exclusive offers.
           <a href="#">Learn more</a>
         </p>
       </div>
@@ -138,40 +169,40 @@
       </div>
     </section>
 
-    <div class="divider">
-      <footer class="footer">
-        <div class="footer-container">
-          <div class="social">
-            <a href="https://spotify.com">
-              <img src="./img/social-spotify.svg" alt="" />
-            </a>
-            <a href="https://facebook.com">
-              <img src="./img/social-facebook.svg" alt="" />
-            </a>
-            <a href="https://pinterest.com">
-              <img src="./img/social-pinterest.svg" alt="" />
-            </a>
-            <a href="https://instagram.com">
-              <img src="./img/social-instagram.svg" alt="" />
-            </a>
-            <a href="https://youtube.com">
-              <img src="./img/social-youtube.svg" alt="" />
-            </a>
-            <a href="https://twitter.com">
-              <img src="./img/social-twitter.svg" alt="" />
-            </a>
-          </div>
-          <p>
-            &copy;
-            <script>
-              new Date().getFullYear() > 2017 &&
-                document.write("" + new Date().getFullYear())
-            </script>
-            Starbucks Coffee Company. All rights reserved.
-          </p>
+    <div class="divider"></div>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="social">
+          <a href="https://spotify.com">
+            <img src="./img/social-spotify.svg" alt="" />
+          </a>
+          <a href="https://facebook.com">
+            <img src="./img/social-facebook.svg" alt="" />
+          </a>
+          <a href="https://pinterest.com">
+            <img src="./img/social-pinterest.svg" alt="" />
+          </a>
+          <a href="https://instagram.com">
+            <img src="./img/social-instagram.svg" alt="" />
+          </a>
+          <a href="https://youtube.com">
+            <img src="./img/social-youtube.svg" alt="" />
+          </a>
+          <a href="https://twitter.com">
+            <img src="./img/social-twitter.svg" alt="" />
+          </a>
         </div>
-      </footer>
-    </div>
+        <p>
+          &copy;
+          <script>
+            document.write("" + new Date().getFullYear())
+          </script>
+          Starbucks Coffee Company. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
   </body>
-  <script src="index.js"></script>
 </html>
