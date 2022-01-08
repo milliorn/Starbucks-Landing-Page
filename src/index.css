@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 :root {
   --color-primary: #006241;
@@ -14,7 +14,7 @@
 
 html,
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.4;
   color: #000;
 }
@@ -104,10 +104,6 @@ section a {
 }
 
 /* Footer & Social */
-.footer {
-	text-align: center;
-}
-
 .footer-container {
   width: 100%;
   max-width: 1440px;
@@ -117,19 +113,18 @@ section a {
 
 .social {
   display: flex;
+  align-items: center;
   margin: 20px 0;
 }
 
 .social img {
   width: 35px;
   height: 35px;
-  padding: 5px;
 }
 
-.social {
-	display: flex;
-	justify-content: center;
-	margin: 20px 0;
+.social a {
+  text-decoration: none;
+  margin-right: 20px;
 }
 
 .divider {
@@ -233,7 +228,7 @@ section a {
   color: #000;
 }
 
-/* Text */
+/* Text Styling */
 .text-center {
   text-align: center;
 }
