@@ -4,12 +4,12 @@ import Marker from "./img/marker.svg";
 
 function App() {
   return (
-    <div className="box-border p-0 m-0 font-sans leading-normal text-dark">
+    <div className="box-border p-0 m-0 font-sans leading-normal text-dark ">
       <nav className="w-full h-auto p-5 navbar ">
         <div className="flex items-center justify-between mx-auto my-0 navbar-container max-w-screen-2xl">
-          <div className="w-12 h-12 navbar-brand">
+          <div className="navbar-brand">
             <a className="text-black no-underline" href="/">
-              <img className="max-w-full " src={Logo} alt="logo" />
+              <img className="w-12 h-12 max-w-full" src={Logo} alt="logo" />
             </a>
           </div>
 
