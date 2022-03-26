@@ -9,7 +9,7 @@ function App() {
         <div className="navbar-container">
           <div className="navbar-brand">
             <a className="text-black" href="/">
-              <img src={Logo} alt="logo" />
+              <img className="max-w-full " src={Logo} alt="logo" />
             </a>
           </div>
 
@@ -28,7 +28,7 @@ function App() {
           <ul className="list-none navbar-nav-right">
             <li>
               <a className="text-black" href="/">
-                <img src={Marker} alt="" />
+                <img className="max-w-full " src={Marker} alt="" />
                 <span>Find a store</span>
               </a>
             </li>
