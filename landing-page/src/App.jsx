@@ -34,7 +34,7 @@ function App() {
           <ul className="flex items-center list-none navbar-nav-right">
             <li className="mx-4 my-0 font-bold">
               <a className="text-black no-underline" href="/">
-                <img className="max-w-full " src={Marker} alt="" />
+                <img className="w-5 h-5 max-w-full mr-2" src={Marker} alt="" />
                 <span>Find a store</span>
               </a>
             </li>
