@@ -7,7 +7,7 @@ function App() {
     <div className="box-border p-0 m-0 font-sans leading-normal text-dark">
       <nav className="w-full h-auto p-5 navbar ">
         <div className="flex items-center justify-between mx-auto my-0 navbar-container max-w-screen-2xl">
-          <div className="navbar-brand">
+          <div className="w-12 h-12 navbar-brand">
             <a className="text-black no-underline" href="/">
               <img className="max-w-full " src={Logo} alt="logo" />
             </a>
