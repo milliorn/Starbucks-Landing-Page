@@ -13,7 +13,7 @@ function App() {
             </a>
           </div>
 
-          <ul className="flex items-center ml-5 uppercase list-none navbar-nav-left">
+          <ul className="flex items-center flex-auto ml-5 uppercase list-none navbar-nav-left ">
             <li className="mx-4 my-0 font-bold">
               <a className="text-black no-underline" href="/">
                 Menu
@@ -39,19 +39,16 @@ function App() {
               </a>
             </li>
             <li className="mx-1 my-0 font-bold">
-              <button className="inline-block px-4 py-2 leading-5 text-center text-black no-underline border-2 border-black border-solid rounded-full cursor-pointer btn bg-none btn-dark-outline">Sign in</button>
+              <button className="inline-block px-4 py-2 leading-5 text-center text-black no-underline border-2 border-black border-solid rounded-full cursor-pointer btn bg-none btn-dark-outline">
+                Sign in
+              </button>
             </li>
             <li className="mx-4 my-0 font-bold">
-              <button className="inline-block px-4 py-2 leading-5 text-center text-white no-underline bg-black border-2 border-black border-solid rounded-full cursor-pointer btn bg-none btn-dark hover:bg-slate-700">Join now</button>
+              <button className="inline-block px-4 py-2 leading-5 text-center text-white no-underline bg-black border-2 border-black border-solid rounded-full cursor-pointer btn bg-none btn-dark hover:bg-slate-700">
+                Join now
+              </button>
             </li>
           </ul>
-
-          {/*<!-- Hamburger Menu -->*/}
-          <button type="button" className="hamburger" id="menu-btn">
-            <span className="hamburger-top"></span>
-            <span className="hamburger-middle"></span>
-            <span className="hamburger-bottom"></span>
-          </button>
         </div>
       </nav>
     </div>
