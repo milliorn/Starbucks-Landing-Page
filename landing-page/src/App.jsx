@@ -13,15 +13,21 @@ function App() {
             </a>
           </div>
 
-          <ul className="flex items-center list-none navbar-nav-left">
+          <ul className="flex items-center ml-5 uppercase list-none navbar-nav-left">
             <li className="mx-4 my-0 font-bold">
-              <a className="text-black no-underline" href="/">Menu</a>
+              <a className="text-black no-underline" href="/">
+                Menu
+              </a>
             </li>
             <li className="mx-4 my-0 font-bold">
-              <a className="text-black no-underline" href="/">Rewards</a>
+              <a className="text-black no-underline" href="/">
+                Rewards
+              </a>
             </li>
             <li className="mx-4 my-0 font-bold">
-              <a className="text-black no-underline" href="/">Gift Cards</a>
+              <a className="text-black no-underline" href="/">
+                Gift Cards
+              </a>
             </li>
           </ul>
 
