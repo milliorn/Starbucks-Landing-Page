@@ -14,28 +14,28 @@ function App() {
           </div>
 
           <ul className="flex items-center list-none navbar-nav-left">
-            <li>
+            <li className="mx-4 my-0 font-bold">
               <a className="text-black" href="/">Menu</a>
             </li>
-            <li>
+            <li className="mx-4 my-0 font-bold">
               <a className="text-black" href="/">Rewards</a>
             </li>
-            <li>
+            <li className="mx-4 my-0 font-bold">
               <a className="text-black" href="/">Gift Cards</a>
             </li>
           </ul>
 
           <ul className="flex items-center list-none navbar-nav-right">
-            <li>
+            <li className="mx-4 my-0 font-bold">
               <a className="text-black" href="/">
                 <img className="max-w-full " src={Marker} alt="" />
                 <span>Find a store</span>
               </a>
             </li>
-            <li>
+            <li className="mx-4 my-0 font-bold">
               <button className="btn btn-dark-outline">Sign in</button>
             </li>
-            <li>
+            <li className="mx-4 my-0 font-bold">
               <button className="btn btn-dark">Join now</button>
             </li>
           </ul>
