@@ -13,7 +13,7 @@ function App() {
             </a>
           </div>
 
-          <ul className="list-none navbar-nav-left">
+          <ul className="flex items-center list-none navbar-nav-left">
             <li>
               <a className="text-black" href="/">Menu</a>
             </li>
@@ -25,7 +25,7 @@ function App() {
             </li>
           </ul>
 
-          <ul className="list-none navbar-nav-right">
+          <ul className="flex items-center list-none navbar-nav-right">
             <li>
               <a className="text-black" href="/">
                 <img className="max-w-full " src={Marker} alt="" />
