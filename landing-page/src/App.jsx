@@ -5,15 +5,15 @@ import Marker from "./img/marker.svg";
 function App() {
   return (
     <div className="container box-border p-0 m-0 font-sans leading-normal text-dark">
-      <nav class="navbar">
-        <div class="navbar-container">
-          <div class="navbar-brand">
+      <nav className="navbar">
+        <div className="navbar-container">
+          <div className="navbar-brand">
             <a className="text-black" href="/">
               <img src={Logo} alt="logo" />
             </a>
           </div>
 
-          <ul class="navbar-nav-left">
+          <ul className="list-none navbar-nav-left">
             <li>
               <a className="text-black" href="/">Menu</a>
             </li>
@@ -25,7 +25,7 @@ function App() {
             </li>
           </ul>
 
-          <ul class="navbar-nav-right">
+          <ul className="list-none navbar-nav-right">
             <li>
               <a className="text-black" href="/">
                 <img src={Marker} alt="" />
@@ -33,18 +33,18 @@ function App() {
               </a>
             </li>
             <li>
-              <button class="btn btn-dark-outline">Sign in</button>
+              <button className="btn btn-dark-outline">Sign in</button>
             </li>
             <li>
-              <button class="btn btn-dark">Join now</button>
+              <button className="btn btn-dark">Join now</button>
             </li>
           </ul>
 
           {/*<!-- Hamburger Menu -->*/}
-          <button type="button" class="hamburger" id="menu-btn">
-            <span class="hamburger-top"></span>
-            <span class="hamburger-middle"></span>
-            <span class="hamburger-bottom"></span>
+          <button type="button" className="hamburger" id="menu-btn">
+            <span className="hamburger-top"></span>
+            <span className="hamburger-middle"></span>
+            <span className="hamburger-bottom"></span>
           </button>
         </div>
       </nav>
