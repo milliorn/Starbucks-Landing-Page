@@ -5,7 +5,7 @@ import Marker from "./img/marker.svg";
 function App() {
   return (
     <div className="container box-border p-0 m-0 font-sans leading-normal text-dark">
-      <nav className="navbar">
+      <nav className="w-full h-auto p-5 bg-black navbar ">
         <div className="navbar-container">
           <div className="navbar-brand">
             <a className="text-black" href="/">
