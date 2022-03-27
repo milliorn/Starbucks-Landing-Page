@@ -3,7 +3,7 @@ import Marker from "../img/marker.svg";
 
 export function Navbar() {
   return (
-    <nav className="w-full h-auto p-5 navbar ">
+    <nav className="w-full h-auto p-6 navbar ">
       <div className="flex items-center justify-between mx-auto my-0 navbar-container max-w-screen-2xl">
         <div className="navbar-brand">
           <a className="text-black no-underline" href="/">
