@@ -14,7 +14,7 @@ function App() {
       <BoxB />
       <BoxC />
       <BoxD />
-      <BoxE/>
+      <BoxE />
     </div>
   );
 }
