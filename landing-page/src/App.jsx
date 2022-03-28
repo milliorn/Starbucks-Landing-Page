@@ -1,6 +1,7 @@
 import "./App.css";
-import { BoxB } from "./components/BoxB";
 import { BoxA } from "./components/BoxA";
+import { BoxB } from "./components/BoxB";
+import { BoxC } from "./components/BoxC";
 import { Navbar } from "./components/Navbar";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <BoxA />
       <BoxB />
+      <BoxC />
     </div>
   );
 }
