@@ -5,7 +5,7 @@ export function BoxA() {
         <h2 className="mb-5 text-5xl font-semibold leading-snug tracking-widest uppercase ">
           Jingle all the way to free favorites
         </h2>
-        <p className="mb-5 text-2xl leading-normal ">
+        <p className="mb-5 text-2xl leading-relaxed ">
           Join Starbucks® Rewards for delicious deals &amp; exclusive offers.
           <a className="inline-flex underline " href="/">
             Learn more
