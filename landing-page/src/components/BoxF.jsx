@@ -4,15 +4,18 @@ import Img2 from "../img/box-f2.jpg";
 
 export function BoxF() {
   return (
-    <section className="grid items-center justify-between grid-cols-2 gap-8 mb-8 box box-f">
+    <section className="grid items-center lg:grid-cols-2 grid-cols-1 gap-8 mb-8">
       <div>
         <img className="max-w-full" src={Img1} alt="" />
-        <div className="px-0 py-10 bg-gray-200 bg-extra">
-          <div className="max-w-xl px-0 py-5 mx-auto my-0 text-center box-text justify-self-center">
-            <h2 id="text-sm_BoxF" className="mb-5 text-2xl font-bold text-md">
+        <div className="px-0 py-10 bg-gray-200">
+          <div className="max-w-xl px-0 py-5 mx-auto my-0 text-center justify-self-center">
+            <h2
+              id="text-sm_BoxF"
+              className="mb-5 lg:text-2xl text-xl font-bold"
+            >
               Let the holiday cheer come to you
             </h2>
-            <p id="text-sm_BoxF" className="mx-0 my-1 mb-5 text-xl leading-8 ">
+            <p id="text-sm_BoxF" className="mx-0 my-1 mb-5 text-lg ">
               Make the moment merry. Order Starbucks® holiday favorites on Uber
               Eats.*
             </p>
@@ -28,12 +31,15 @@ export function BoxF() {
 
       <div>
         <img className="max-w-full" src={Img2} alt="" />
-        <div className="px-0 py-10 text-white bg-emerald-800 bg-extra">
-          <div className="max-w-xl px-0 py-5 mx-auto my-0 text-center box-text justify-self-center">
-            <h2 id="text-sm_BoxF" className="mb-5 text-2xl font-bold text-md">
+        <div className="px-0 py-10 bg-emerald-800 text-white">
+          <div className="max-w-xl px-0 py-5 mx-auto my-0 text-center justify-self-center">
+            <h2
+              id="text-sm_BoxF"
+              className="mb-5 lg:text-2xl text-xl font-bold"
+            >
               Loved Passing on Netflix?
             </h2>
-            <p id="text-sm_BoxF" className="mx-0 my-1 mb-5 text-xl leading-8 ">
+            <p id="text-sm_BoxF" className="mx-0 my-1 mb-5 text-lg ">
               Our new social series about film adaptations kicks off with the
               actors and directors who brought the book to life.
             </p>

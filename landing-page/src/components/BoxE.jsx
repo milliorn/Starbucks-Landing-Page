@@ -3,18 +3,18 @@ import Img from "../img/box-e.jpg";
 
 export function BoxE() {
   return (
-    <section className="grid items-center justify-between grid-cols-2 gap-8 text-white box box-c bg-secondary grid-reversed bg-rose-700 mb-7">
-      <img src={Img} alt="" className="order-2 max-w-full" />
+    <section className="grid items-center justify-between md:grid-cols-2 grid-cols-1 gap-8 text-white box box-c bg-secondary grid-reversed bg-rose-700 mb-7">
+      <img src={Img} alt="" className="md:order-2 order-none max-w-full" />
       <div className="max-w-md px-0 py-5 mx-auto my-0 text-center box-text justify-self-center">
         <h2
           id="text-xl-BoxE"
-          className="text-2xl font-semibold leading-snug tracking-widest capitalize "
+          className="sm:text-4xl text-3xl font-semibold leading-snug tracking-widest uppercase "
         >
           Fighting hunger this holiday
         </h2>
         <p
           id="text-md-BoxE"
-          className="py-5 mb-5 text-lg leading-relaxed tracking-wider"
+          className="py-5 mb-5 sm:text-2xl text-xl leading-relaxed tracking-wider"
         >
           Hunger is affecting millions of people across America this holiday
           season. Join us in our commitment to hunger relief and help feed

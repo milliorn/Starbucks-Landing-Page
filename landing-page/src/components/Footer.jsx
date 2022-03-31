@@ -9,7 +9,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="footer">
-      <div className="footer-container w-full max-w-7xl my-0 mx-auto pt-0 pb-8 pr-8">
+      <div className="footer-container w-full max-w-7xl my-0 mx-auto pt-0 pb-8">
         <div className="social flex items-center my-8 mx-0 justify-center">
           <a className="no-underline mr-4" href="https://spotify.com">
             <img className="max-w-full w-8 h-8" src={Spotify} alt="" />
@@ -30,7 +30,7 @@ export function Footer() {
             <img className="max-w-full w-8 h-8" src={Twitter} alt="" />
           </a>
         </div>
-        <p className="text-center my-1 mx-0 leading-relaxed	">
+        <p className="text-center my-1 mx-0 leading-relaxed	text-sm sm:text-base">
           © {currentYear} Starbucks Coffee Company. All rights reserved.
         </p>
       </div>

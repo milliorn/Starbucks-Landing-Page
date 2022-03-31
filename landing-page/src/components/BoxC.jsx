@@ -2,18 +2,18 @@ import Img from "../img/box-c.png";
 
 export function BoxC() {
   return (
-    <section className="grid items-center justify-between grid-cols-2 gap-8 text-white box box-c bg-secondary grid-reversed bg-rose-700 mb-7">
+    <section className="grid items-center justify-between md:grid-cols-2 grid-cols-1 gap-8 text-white box box-c bg-secondary grid-reversed bg-rose-700 mb-7">
       <img src={Img} alt="" className="order-2 max-w-full" />
       <div className="max-w-md px-0 py-5 mx-auto my-0 text-center box-text justify-self-center">
         <h2
           id="text-xl-BoxC"
-          className="text-5xl font-semibold leading-snug tracking-widest uppercase "
+          className="sm:text-4xl text-3xl font-semibold leading-snug tracking-widest uppercase "
         >
           Merry moment
         </h2>
         <p
           id="text-md-BoxC"
-          className="py-5 mb-5 text-2xl leading-relaxed tracking-wider"
+          className="py-5 mb-5 lg:text-2xl text-xl leading-relaxed tracking-wider"
         >
           Treat yourself to a festive Sugar Plum Cheese Danish with a nicely
           spiced sugar-plum spread.

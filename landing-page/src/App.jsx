@@ -11,7 +11,7 @@ import { Footer } from "./components/Footer";
 
 function App() {
   return (
-    <div className="p-0 m-0 font-sans antialiased box-border leading-snug	">
+    <div className="p-0 m-0 font-sans antialiased box-border leading-snug w-full">
       <Navbar />
       <BoxA />
       <BoxB />
