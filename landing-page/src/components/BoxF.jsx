@@ -15,7 +15,7 @@ export function BoxF() {
             >
               Let the holiday cheer come to you
             </h2>
-            <p id="text-sm_BoxF" className="mx-0 my-1 mb-5 text-lg ">
+            <p id="text-sm_BoxF" className="mx-1 my-1 mb-5 text-lg ">
               Make the moment merry. Order Starbucks® holiday favorites on Uber
               Eats.*
             </p>
@@ -39,7 +39,7 @@ export function BoxF() {
             >
               Loved Passing on Netflix?
             </h2>
-            <p id="text-sm_BoxF" className="mx-0 my-1 mb-5 text-lg ">
+            <p id="text-sm_BoxF" className="mx-1 my-1 mb-5 text-lg ">
               Our new social series about film adaptations kicks off with the
               actors and directors who brought the book to life.
             </p>

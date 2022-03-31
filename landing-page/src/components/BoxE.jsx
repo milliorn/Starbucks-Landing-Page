@@ -14,7 +14,7 @@ export function BoxE() {
         </h2>
         <p
           id="text-md-BoxE"
-          className="py-5 mb-5 sm:text-2xl text-xl leading-relaxed tracking-wider"
+          className="py-5 mb-5 sm:text-2xl text-xl leading-relaxed tracking-wider mx-3"
         >
           Hunger is affecting millions of people across America this holiday
           season. Join us in our commitment to hunger relief and help feed

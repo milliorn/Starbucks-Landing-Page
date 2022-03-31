@@ -9,7 +9,7 @@ export function BoxD() {
         <h2 className="sm:text-4xl text-3xl font-semibold leading-snug tracking-widest uppercase ">
           Starbucks Thanksgiving Blend
         </h2>
-        <p className="py-5 mb-5 sm:text-2xl text-xl leading-relaxed tracking-wider">
+        <p className="py-5 mb-5 sm:text-2xl text-xl leading-relaxed tracking-wider mx-1">
           This elegant dark roast returns, showcasing flavors from some of the
           world’s major coffee-growing regions.
         </p>

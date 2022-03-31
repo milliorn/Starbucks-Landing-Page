@@ -13,7 +13,7 @@ export function BoxC() {
         </h2>
         <p
           id="text-md-BoxC"
-          className="py-5 mb-5 lg:text-2xl text-xl leading-relaxed tracking-wider"
+          className="py-5 mb-5 lg:text-2xl text-xl leading-relaxed tracking-wider mx-1"
         >
           Treat yourself to a festive Sugar Plum Cheese Danish with a nicely
           spiced sugar-plum spread.

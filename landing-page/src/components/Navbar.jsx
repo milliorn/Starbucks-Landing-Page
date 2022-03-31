@@ -7,22 +7,22 @@ export function Navbar() {
       <div className="flex items-center justify-between mx-auto my-0 max-w-screen-2xl">
         <div className="invisible sm:visible">
           <a className="text-black no-underline" href="/">
-            <img className="w-12 h-12" src={Logo} alt="logo" />
+            <img className="w-12 h-12 sm:ml-1" src={Logo} alt="logo" />
           </a>
         </div>
 
         <ul className="sm:flex items-center sm:ml-5 uppercase list-none">
-          <li className="mx-4 my-0 font-bold leading-6">
+          <li className="mx-4 sm:my-0 my-1 font-bold leading-6">
             <a className="text-black no-underline" href="/">
               Menu
             </a>
           </li>
-          <li className="mx-4 my-0 font-bold leading-6">
+          <li className="mx-4 sm:my-0 my-1 font-bold leading-6">
             <a className="text-black no-underline" href="/">
               Rewards
             </a>
           </li>
-          <li className="mx-4 my-0 font-bold leading-6">
+          <li className="mx-4 sm:my-0 my-1 font-bold leading-6">
             <a className="text-black no-underline" href="/">
               Gift Cards
             </a>
@@ -30,7 +30,7 @@ export function Navbar() {
         </ul>
 
         <ul className="sm:flex items-center list-none sm:mb-0 mt-1">
-          <li className="mx-4 my-0 font-bold leading-6">
+          <li className="mx-4 sm:my-0 my-1 font-bold leading-6">
             <a className="flex items-center text-black no-underline" href="/">
               <img
                 className="sm:w-5 sm:h-5 sm:max-w-full mx-4 h-fit"
