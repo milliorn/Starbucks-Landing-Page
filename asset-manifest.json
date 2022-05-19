@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Starbucks-Landing-Page/static/css/main.cefaf1cc.css",
+    "main.js": "/Starbucks-Landing-Page/static/js/main.11fa68b9.js",
+    "static/media/box-d.png": "/Starbucks-Landing-Page/static/media/box-d.ffa3a81e3c811c6afdce.png",
+    "static/media/box-f1.jpg": "/Starbucks-Landing-Page/static/media/box-f1.f0cdff57bd9a73cf242c.jpg",
+    "static/media/box-c.png": "/Starbucks-Landing-Page/static/media/box-c.d9120b144d924281c168.png",
+    "static/media/box-b.png": "/Starbucks-Landing-Page/static/media/box-b.6e9853777510eb4512bb.png",
+    "static/media/box-e.jpg": "/Starbucks-Landing-Page/static/media/box-e.717b37a4daf5e9efb8ee.jpg",
+    "static/media/box-f2.jpg": "/Starbucks-Landing-Page/static/media/box-f2.992ffac9922a14be9bad.jpg",
+    "static/media/logo.svg": "/Starbucks-Landing-Page/static/media/logo.f847d5338b425801f06838ff828e39fe.svg",
+    "static/media/social-instagram.svg": "/Starbucks-Landing-Page/static/media/social-instagram.977aad2d798562eca8bce786fa3d0f1e.svg",
+    "static/media/social-pinterest.svg": "/Starbucks-Landing-Page/static/media/social-pinterest.f52f207df1645029f1fba670d3d0d0c6.svg",
+    "static/media/social-twitter.svg": "/Starbucks-Landing-Page/static/media/social-twitter.adacc8400fd157d7920b1b119156d54d.svg",
+    "static/media/social-youtube.svg": "/Starbucks-Landing-Page/static/media/social-youtube.44aee5e9e7d59b7bf6e000b0201e0c38.svg",
+    "static/media/social-spotify.svg": "/Starbucks-Landing-Page/static/media/social-spotify.4760d519052ebe1b01a127d1a4cb1f3e.svg",
+    "static/media/social-facebook.svg": "/Starbucks-Landing-Page/static/media/social-facebook.e7f8f59251f0d623fd3eb866f25fc666.svg",
+    "index.html": "/Starbucks-Landing-Page/index.html",
+    "static/media/marker.svg": "/Starbucks-Landing-Page/static/media/marker.229a0e9af999e00d50d4d749e9dad8f2.svg",
+    "main.cefaf1cc.css.map": "/Starbucks-Landing-Page/static/css/main.cefaf1cc.css.map",
+    "main.11fa68b9.js.map": "/Starbucks-Landing-Page/static/js/main.11fa68b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cefaf1cc.css",
+    "static/js/main.11fa68b9.js"
+  ]
+}
